@@ -1,0 +1,197 @@
+.header-area{
+	overflow: hidden;
+	position: relative;
+}
+.header-area .navbar{
+	position: absolute;
+ 	top: 0;
+	left: 0;
+	width: 100%;
+	display: block;
+}
+.header-area .navbar ul li{
+	padding: 12px
+}
+.header-area .navbar ul li a{
+	text-transform: uppercase;
+	color: #4d4959;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+
+}
+
+
+/**** intro ****/
+
+.intro{
+	background-color: #f7f7f7;
+}
+.contant h2{
+	color: #353738;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.contant p{
+	line-height: 30px;
+	font-size: 15px;
+	color: #848789;
+}
+
+
+
+/*** main-area****/
+
+.main-area{
+	display: block;
+	overflow: hidden;
+}
+.big-photo{
+	display: block;
+	overflow: hidden;
+}
+.small-photo{
+	overflow: hidden;
+	margin-left: -30px
+}
+.text{
+	padding-top: 18px;
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+.second-one .small-photo{
+	overflow: hidden;
+	margin-top: -15px;
+	margin-right: -35px
+}
+
+.third-one .small-photo{
+	width: 500px;
+	height: auto;
+}
+.third-one .text img{
+	padding-top: 35px;
+}
+.third-one .big-photo{
+	height: 100%;
+}
+
+
+.text {
+	position: relative;
+}
+.text:after{
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 10px solid red;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent ;
+	position: absolute;
+	top: 100%;
+	left: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/***tweet area**/
+
+.tweet-icon i{
+	padding: 100px 0 5px 0;
+	color:#56c7ee;
+	font-size: 30px;
+}
+.tweet-area span{
+	font-size: 15px;
+	color: #848789;
+	text-transform: lowercase;
+	font-family: 'Roboto', sans-serif;
+}
+.tweet-area h2{
+	text-transform: none;
+	font-size: 18px;
+}
+.tweet-area p{
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+
+
+
+
+/****footpolio-area****/
+.footpolio-area{
+	overflow: hidden;
+}
+
+.down-fortpolio button{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 40px;
+	color: #848789;
+	border-radius: none;
+	letter-spacing: 0.2em;
+}
+
+
+
+
+/**** subscribe area****/
+.subscribe-area{
+	overflow: hidden;
+}
+.subscribe-area h4{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	color: #848789;
+	font-size: 18px;
+}
+.subscribe-area input{
+	padding: 30px 40px;
+}
+.subscribe-area button{
+	padding: 10px 40px;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #64c29e;
+
+}
+
+
+
+
+/****footer-area****/
+
+.footer-area{
+	overflow: hidden;
+	background-color: #f7f7f7;
+	
+}
+.footer-area i{
+	padding: 5px;
+}
+.footer-area h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #848789;
+}
+.footer-area h6{
+	font-family: 'Open sans', sans-serif;
+	font-size: 13px;
+	color: #848789;
+}
