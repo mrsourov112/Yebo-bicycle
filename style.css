@@ -183,6 +183,7 @@
 }
 .footer-area i{
 	padding: 5px;
+	cursor: pointer;
 }
 .footer-area h5{
 	font-family: 'Roboto', sans-serif;
